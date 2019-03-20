@@ -1,3 +1,10 @@
+body {
+  background-image: url("https://wallpapercave.com/wp/wp3006044.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .header{
   font-size: 35px;
   color: white;
@@ -19,10 +26,17 @@
   font-style: italic;
 }
 
-.main{
-  background-image: url("https://wallpapercave.com/wp/wp3006044.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: 0.1px solid transparent;
-  border-bottom: 600px solid transparent;
+@media screen and (min-width: 600px) {
+  .column {
+    font-size: 25px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    border: 0.1px solid green;
+    width: 28%;
+    height: 200px;
+    float: left;
+    margin: 30px;
+    opacity: 0.8;
+  }
 }

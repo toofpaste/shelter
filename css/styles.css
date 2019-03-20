@@ -1,0 +1,10 @@
+.float {
+  float: right;
+  border: 1px solid green;
+  width: 33%;
+}
+
+.columns {
+  float:left;
+  width: 33%;
+}
