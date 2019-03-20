@@ -1,10 +1,25 @@
-.float {
-  float: right;
-  border: 1px solid green;
-  width: 33%;
+body {
+  background-color: #004d4d;
 }
 
+
+h1 {
+  text-align: center;
+  color: #009999;
+}
+.float {
+  float: left;
+  border: 5px solid #009999;
+  width: 45%;
+
+}
+.float h1 {
+  text-align: center;
+  color: #009999;
+}
 .columns {
-  float:left;
-  width: 33%;
+  text-align: center;
+  float: left;
+  padding: 1px;
+  width: 50%;
 }
