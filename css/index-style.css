@@ -1,0 +1,28 @@
+.header{
+  font-size: 35px;
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-family: palatino;
+  padding-top: 110px;
+  background-image: url("../img/city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 90px solid transparent;
+}
+.header h2 {
+  font-style: normal;
+  font-size: 20px;
+
+}
+.italics{
+  font-style: italic;
+}
+
+.main{
+  background-image: url("https://wallpapercave.com/wp/wp3006044.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 0.1px solid transparent;
+  border-bottom: 600px solid transparent;
+}
